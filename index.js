@@ -13,5 +13,5 @@ const port = process.env.PORT || 8000;
 app.use("/callingcodes", routerCallingCodes);
 
 app.listen(port, () => {
-    console.log("Servidor On")
+    console.log("Server On")
 });
