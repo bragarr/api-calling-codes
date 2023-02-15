@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import { routerCallingCodes } from "./routes/callingCodes.js"
+import { routerCallingCodes } from "./routes/worldCallingCodes.js"
 
 const app = express();
 
